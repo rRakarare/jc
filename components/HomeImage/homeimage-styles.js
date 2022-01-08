@@ -25,6 +25,7 @@ export const HeroBg = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
+  background-color: ${props => props.theme.colors.dark};
 `;
 
 export const VideoBg = styled(Image)`
@@ -32,6 +33,7 @@ export const VideoBg = styled(Image)`
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  opacity: 0.7;
   filter: blur(7px);
 `;
 
