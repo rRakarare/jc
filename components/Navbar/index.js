@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
           exact="true"
           offset={-80}
         >
-          <Image src="/jc.svg" width={50} height={30} alt="logo_JC" />
+          <Image src="/jc_vec.svg" width={50} height={30} alt="logo_JC" />
         </NavLogo>
         <MobileIcon onClick={toggle}>
           <FaBars color="white" />

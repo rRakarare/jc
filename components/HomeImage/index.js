@@ -16,7 +16,7 @@ const HomeImage = () => {
         <VideoBg layout="fill" src={"/home.jpg"} />
       </HeroBg>
       <HeroContent>
-        <HeroImage src="/jc.svg" height={120} width={120}/>
+        <HeroImage src="/jc_vec.svg" height={120} width={120}/>
         <HeroCap>Personal Coaching für jeden</HeroCap>
         <HeroText>To be fit is an attitude</HeroText>
         <HeroBtnWrapper></HeroBtnWrapper>
