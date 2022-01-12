@@ -43,8 +43,8 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightText={lightText}>{description}</Subtitle>
                 <List>
-                  {bullets.map(item => (
-                    <ListItem lightText={lightText}>{item}</ListItem>
+                  {bullets.map((item,i) => (
+                    <ListItem key={i} lightText={lightText}>{item}</ListItem>
                   ))}
                 </List>
               </TextWrapper>
