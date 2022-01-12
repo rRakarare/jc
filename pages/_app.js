@@ -26,7 +26,7 @@ a {
 const theme = {
   colors: {
     white: "#ffffffff",
-    primary: "#97c139ff",
+    primary: "#B6DC76",
     secondary: "#1b2845ff",
     light: "#dcd8e4",
     dark: "#161616",

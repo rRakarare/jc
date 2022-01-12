@@ -13,6 +13,7 @@ export const infoTwo = {
     dark: false,
     primary: true,
     darkText: true,
+    bullets: ["Hallo", "Sie kau"]
   };
 
   export const infoOne = {
@@ -30,6 +31,7 @@ export const infoTwo = {
     dark: false,
     primary: true,
     darkText: true,
+    bullets: ["Hallo", "Sie kau"]
   };
 
   

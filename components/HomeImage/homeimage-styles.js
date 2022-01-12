@@ -33,7 +33,7 @@ export const VideoBg = styled(Image)`
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  opacity: 0.7;
+  opacity: 0.6;
   filter: blur(7px);
 `;
 

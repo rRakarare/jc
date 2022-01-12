@@ -10,6 +10,14 @@ export const InfoContainer = styled.div`
   }
 `;
 
+export const List = styled.ul`
+  
+`
+
+export const ListItem = styled.li`
+  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
+`
+
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;

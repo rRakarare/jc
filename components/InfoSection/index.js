@@ -12,6 +12,8 @@ import {
   Subtitle,
   BtnWrap,
   Img,
+  List,
+  ListItem
 } from "./info-styles";
 
 
@@ -28,6 +30,7 @@ const InfoSection = ({
   description,
   img,
   alt,
+  bullets
 }) => {
   return (
     <>
@@ -39,19 +42,11 @@ const InfoSection = ({
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightText={lightText}>{description}</Subtitle>
-                <BtnWrap>
-                  {/* <Button
-                    to="home"
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact="true"
-                    offset={-80}
-                    primary
-                  >
-                    {buttonLabel}
-                  </Button> */}
-                </BtnWrap>
+                <List>
+                  {bullets.map(item => (
+                    <ListItem lightText={lightText}>{item}</ListItem>
+                  ))}
+                </List>
               </TextWrapper>
             </Column1>
             <Column2>
